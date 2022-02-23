@@ -1,0 +1,146 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+  padding-bottom: 30px;
+  margin-top: 10px;
+  border-bottom: 2px solid rgb(226, 217, 217);
+}
+.main {
+  display: flex;
+}
+.button {
+  margin-top: 10px;
+  height: 40px;
+  width: 150px;
+  align-items: flex-start;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 8px;
+  background: rgb(64, 199, 129);
+  box-shadow: 0 -3px rgb(53, 167, 110) inset;
+  transition: 0.2s;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.button:hover {
+  background: rgb(53, 167, 110);
+}
+.button:active {
+  background: rgb(33, 147, 90);
+  box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+.list {
+  list-style: none;
+}
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgb(230, 219, 219);
+}
+.passwordList {
+  margin: 0 auto;
+  text-align: start;
+}
+.title {
+  color: rgb(230, 219, 219);
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+.label {
+  margin-bottom: 10px;
+  width: 50%;
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.label input {
+  margin-top: 5px;
+  border-color: rgb(230, 219, 219);
+}
+
+.label input:focus,
+.label input:hover {
+  border-color: rgb(230, 219, 219);
+}
+
+.label input:focus-within {
+  background-color: rgb(230, 219, 219);
+  color: black;
+}
+
+.input {
+  font-size: 20px;
+  font-weight: 500;
+  width: 200px;
+  padding: 12px 20px;
+  /* border: 2px solid black; */
+  border: transparent;
+  color: black;
+  border-radius: 4px;
+  background-color: transparent;
+  color: aliceblue;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.icon {
+  background-color: transparent;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.buttonIcon {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+  height: 50px;
+}
+
+.buttonIcon:hover,
+.buttonIcon:focus {
+  background-color: grey;
+  border-radius: 50px;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.inputAuth {
+  font-size: 18px;
+  font-weight: 500;
+  width: 350px;
+  padding: 12px 20px;
+  border: 2px solid black;
+  color: black;
+  border-radius: 4px;
+}

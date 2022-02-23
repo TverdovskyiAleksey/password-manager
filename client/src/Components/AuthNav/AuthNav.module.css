@@ -1,0 +1,14 @@
+.link {
+  color: rgb(230, 219, 219);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.activeLink {
+  color: #2196f3;
+}
