@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Route, Routes, useNavigate } from 'react-router-dom';
+import { Route, Routes, useNavigate, Navigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 import authSelectors from './Redux/auth/auth-selectors';
@@ -30,6 +30,7 @@ function App() {
         <>
           <AppBar />
           <Routes>
+            <Route path="*" element={<Navigate to="/login" />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/dashboard" element={<DashboardPage />} />
