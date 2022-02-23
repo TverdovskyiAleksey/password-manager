@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/%20//tverdovskyialeksey.github.io/password-manager/static/css/main.93da0ec7.css",
-    "main.js": "/%20//tverdovskyialeksey.github.io/password-manager/static/js/main.f6aec245.js",
+    "main.js": "/%20//tverdovskyialeksey.github.io/password-manager/static/js/main.3ccc7b19.js",
     "static/js/787.c4e7f8f9.chunk.js": "/%20//tverdovskyialeksey.github.io/password-manager/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/%20//tverdovskyialeksey.github.io/password-manager/index.html",
     "main.93da0ec7.css.map": "/%20//tverdovskyialeksey.github.io/password-manager/static/css/main.93da0ec7.css.map",
-    "main.f6aec245.js.map": "/%20//tverdovskyialeksey.github.io/password-manager/static/js/main.f6aec245.js.map",
+    "main.3ccc7b19.js.map": "/%20//tverdovskyialeksey.github.io/password-manager/static/js/main.3ccc7b19.js.map",
     "787.c4e7f8f9.chunk.js.map": "/%20//tverdovskyialeksey.github.io/password-manager/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93da0ec7.css",
-    "static/js/main.f6aec245.js"
+    "static/js/main.3ccc7b19.js"
   ]
 }
